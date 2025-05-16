@@ -1,0 +1,24 @@
+body{
+    background-color: floralwhite;
+}
+table{
+    border:3px solid black;
+}
+th{
+    border: 2px solid black;
+}
+td{
+    border: 1px solid black;
+}
+tbody{
+    background-color: darkturquoise;
+}
+tfoot{
+    background-color: aquamarine;
+}
+caption{
+    background-color: aqua;
+}
+dt{
+    font-weight: bold;
+}

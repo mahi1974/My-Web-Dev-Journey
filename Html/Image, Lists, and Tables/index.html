@@ -1,11 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image, Lists, and Tables in HTML</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Image,List, and Tables</h1>
+    <h2>Image</h2>
+    <img src="image1.jpg" alt="Train Image" height="250"/>
+    <br />
+
+    <h2>Table</h2>
+
+    <table>
+      <thead>
+        <caption>
+          Student Details
+        </caption>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Subject</th>
+        </tr>
+        <tr>
+          <td>Mahipat</td>
+          <td>Java</td>
+        </tr>
+        <tr>
+          <td>Ronik</td>
+          <td rowspan="2">Html</td>
+        </tr>
+        <tr>
+          <td>Paras</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">This Is Table Footer</td>
+        </tr>
+      </tfoot>
+    </table>
+    <h2>Lists</h2>
+    <h3>Unordered Lists</h3>
+    <!--Unordered List-->
+    <h4>Bullet Style(Default)</h4>
+
+    <ul>
+      <!--List Item-->
+      <li>Mahipat</li>
+      <li>Ronik</li>
+      <li>Dhaval</li>
+      <li>Paras</li>
+    </ul>
+
+    <h4>Square Style</h4>
+
+    <ul type="square">
+      <li>Notebook</li>
+      <li>Marker</li>
+    </ul>
+
+    <h4>Circle Style</h4>
+
+    <ul type="Circle">
+      <li>Notebook</li>
+      <li>Marker</li>
+    </ul>
+    <h3>Ordered Lists</h3>
+
+    <h4>Uppercase Alphabetical Letters</h4>
+
+    <ol type="A">
+      <li>Pen</li>
+      <li>Pencil</li>
+    </ol>
+
+    <h4>Lowercase Alphabetical Letters</h4>
+
+    <ol type="a">
+      <li>Pen</li>
+      <li>Pencil</li>
+    </ol>
+
+    <h4>Uppercase Roman Numerals</h4>
+
+    <ol type="I">
+      <li>Pen</li>
+      <li>Pencil</li>
+    </ol>
+
+    <h4>Lowercase Roman Numerals</h4>
+
+    <ol type="i">
+      <li>Pen</li>
+      <li>Pencil</li>
+    </ol>
+
+    <h4>Arabic Numerals(Default)</h4>
+
+    <!--Ordered list-->
+    <ol type="1">
+      <!--List Item-->
+      <li>Mahipat</li>
+      <li>Ronik</li>
+      <li>Dhaval</li>
+      <li>Paras</li>
+    </ol>
+
+    <h3>Description List</h3>
+
+    <!--Definition List-->
+    <dl>
+      <!--Definition term-->
+      <dt>Html</dt>
+      <!--Definition Description-->
+      <dd>
+        HyperText Markup Language: The standard language for creating web pages.
+      </dd>
+      <dt>CSS</dt>
+      <dd>
+        Cascading Style Sheets: A stylesheet language used for describing the
+        look and formatting of a document written in HTML.
+      </dd>
+
+      <dt>JavaScript</dt>
+      <dd>
+        A programming language commonly used in web development to add
+        interactive features.
+      </dd>
+    </dl>
+  </body>
 </html>
